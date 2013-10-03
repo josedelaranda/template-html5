@@ -1,0 +1,436 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+<!--[if IE ]> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<title>Your Site</title>
+<meta name="description" content="">
+
+<!-- Mobile viewport optimized: h5bp.com/viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Opera Speed Dial Favicon -->
+<link rel="icon" type="image/png" href="/speeddial-160px.png" />
+			
+<!-- Standard Favicon -->
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+<!-- For iPhone 4 Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+
+<!-- For iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+
+<!-- For iPhone: -->
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/base.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen"/>
+
+
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
+<!--[if lt IE 8]>
+	<link rel="stylesheet" href="css/ie-only.css" type="text/css" media="screen" />
+<![endif]-->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+
+<script type="text/javascript">
+if (typeof jQuery == 'undefined')
+{
+    document.write(unescape("%3Cscript src='js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="js/selectivizr-min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+</head>
+<body>
+<div class="clearfix wrapper">
+	<header class="header">
+		<div class="clearfix header_inner">
+			<h1 class="float_left"><a href="index.html" title="Your site"><img alt="Your site" src="images/logo.jpg"  /></a></h1>
+			<ul class="clearfix list_reset nav_top">
+				<li><a href=".html" title="">Contact Us</a><span>|</span></li>
+				<li><a href=".html" title="">Terms of Use</a><span>|</span></li>
+				<li><a href=".html" title="">Privacy Policy</a><span>|</span></li>
+				<li><a href=".html" title="">Site Map</a></li>
+			</ul>
+		</div>
+	</header>
+	<nav class="nav">
+		<ul class="list_reset clearfix">
+			<li class="nav1"><a class="nav_img" href=".html" title="" accesskey="1">About</a><span class="separator">|</span>
+				<div class="subnav">
+					<p><a href=".html" title="">History</a></p>
+					<p><a href=".html" title="">Philosophy</a></p>
+					<p><a href=".html" title="">Executives</a></p>
+					<p><a class="last" href=".html" title="">Team</a></p>
+					<span class="png sub_bottom">&nbsp;</span> <span class="png sub_left">&nbsp;</span> <span class="png sub_right">&nbsp;</span> </div>
+			</li>
+			<li class="nav2"><a class="nav_img" href=".html" title="" accesskey="2">Products</a><span class="separator">|</span> </li>
+			<li class="nav3"><a class="nav_img" href=".html" title="Why Accurate Background" accesskey="3">Background</a><span class="separator">|</span> </li>
+			<li class="nav4"><a class="nav_img" href=".html" title="" accesskey="4">Events</a><span class="separator">|</span> </li>
+			<li class="nav5"><a class="nav_img" href=".html" title="" accesskey="5">Partners</a><span class="separator">|</span> </li>
+			<li class="nav6"><a class="nav_img" href=".html" title="" accesskey="6">Resources</a><span class="separator">|</span> </li>
+			<li class="nav7"><a class="nav_img" href=".html" title="" accesskey="7">Contact</a> </li>
+		</ul>
+	</nav>
+	<div class="clearfix content">
+		<aside class="clearfix sidebar_left">
+			<div class="sidebar_left_inner">
+				<section class="follow_box">
+					<h3>Follow Us on</h3>
+					<ul class="list_reset">
+						<li><a href="#" title="Your site in Twitter"><img alt="Twitter" src="images/twitter.jpg" /> <span>Twitter</span></a></li>
+						<li><a href="#" title="Your site in Facebook"><img alt="Facebook" src="images/facebook.jpg" /> <span>Facebook</span></a></li>
+						<li><a href="#" title="Your site in LinkedIn"><img alt="LinkedIn" src="images/linkedin.jpg" /> <span>LinkedIn</span></a></li>
+						<li><a href="#" title="Your site in Blog"><img alt="Blog" src="images/blog.jpg" /> <span>Blog</span></a></li>
+					</ul>
+				</section>
+				<section class="quick_contact">
+					<div class="quick_contact_top png"></div>
+					<div class="quick_contact_middle png">
+						<div class="png quick_contact_inner">
+							<h3>Quick Contact</h3>
+							<form method="post" action="#" class="no_margin">
+								<fieldset>
+									<p>
+										<input title="Name" type="text" class="text populate png" id="txt_name" name="txt_name" />
+									</p>
+									<p>
+										<input title="Phone" type="text" class="text populate png" id="txt_phone" name="txt_phone" />
+									</p>
+									<p>
+										<textarea title="Comments" class="text populate png" id="txt_comments" name="txt_comments" cols="10" rows="10"></textarea>
+									</p>
+									<p class="clearfix no_margin">
+										<button class="float_right btn" type="submit"><span>Submit</span></button>
+									</p>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div class="quick_contact_bottom png"></div>
+				</section>
+			</div>
+		</aside>
+		<div class="clearfix main_content">
+			<div class="main_content_inner">
+				<h1>h1. Heading 1</h1>
+				<h2>h2. Heading 2</h2>
+				<h3>h3. Heading 3</h3>
+				<h4>h4. Heading 4</h4>
+				<h5>h5. Heading 5</h5>
+				<h6>h6. Heading 6</h6>
+				<p class="heading"><em class="color">Sed faucibus dui ac est. Praesent vitae tortor ut orci auctor placerat. Pellentesque tortor. Nullam tincidunt rhoncus diam. Etiam mattis sodales sapien.</em></p>
+
+			    <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+			    <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+			    <p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+			    <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+			    <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+
+				<address>
+				<strong>Twitter, Inc.</strong><br>
+				795 Folsom Ave, Suite 600<br>
+				San Francisco, CA 94107<br>
+				<abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+
+				<address>
+				<strong>Full Name</strong><br>
+				<a href="mailto:#">first.last@gmail.com</a>
+				</address>
+
+			    <blockquote>
+				    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </blockquote>
+
+		        <blockquote class="pull-right">
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </blockquote>
+
+				<!-- Button to trigger modal -->
+				<p><a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a></p>
+
+				<div class="html_editor">
+					<p><a href="#fancy_box" id="fancy_link">Fancybox</a></p>
+					<div style="display: none;">
+						<div id="fancy_box">
+							<div style="padding: 2em;">
+								<p>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. Aenean justo ligula, gravida eu, pellentesque non, rutrum eu, nisl. Phasellus vitae risus feugiat sapien pulvinar tempus. Integer in nisl id quam faucibus venenatis. In hac habitasse platea dictumst. Nullam fermentum, massa ac facilisis facilisis, enim augue suscipit mi, ut dictum metus pede eu orci. Suspendisse pulvinar molestie tortor. Suspendisse et pede. Donec bibendum urna in nisi. Donec ut lorem. Suspendisse eu nisi. In a risus. Quisque sed tellus. Fusce nec est. Aliquam quam turpis, ultricies ut, ornare ac, varius vitae, eros. Fusce sit amet velit. Ut id lacus. Proin justo diam, pharetra euismod, suscipit a, elementum id, risus.</p>
+							</div>
+						</div>
+					</div>
+					<p>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. Aenean justo ligula, gravida eu, pellentesque non, rutrum eu, nisl. Phasellus vitae risus feugiat sapien pulvinar tempus. Integer in nisl id quam faucibus venenatis. In hac habitasse platea dictumst. Nullam fermentum, massa ac facilisis facilisis, enim augue suscipit mi, ut dictum metus pede eu orci. Suspendisse pulvinar molestie tortor. Suspendisse et pede. Donec bibendum urna in nisi. Donec ut lorem. Suspendisse eu nisi. In a risus. Quisque sed tellus. Fusce nec est. Aliquam quam turpis, ultricies ut, ornare ac, varius vitae, eros. Fusce sit amet velit. Ut id lacus. Proin justo diam, pharetra euismod, suscipit a, elementum id, risus.</p>
+					<h3>Suspendisse pulvinar molestie tortor</h3>
+					<ul>
+						<li>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. </li>
+						<li>Integer a lectus. Duis libero urna </li>
+						<li>Nunc pretium magna eu sapien. Aliquam consequat felis non nisi. </li>
+						<li>Aliquam consequat felis non nisi. Vivamus ut libero. Suspendisse pulvinar placerat ligula. Maecenas molestie metus vel justo.</li>
+						<li>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. </li>
+					</ul>
+
+					<ol>
+						<li>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. </li>
+						<li>Integer a lectus. Duis libero urna </li>
+						<li>Nunc pretium magna eu sapien. Aliquam consequat felis non nisi. </li>
+						<li>Aliquam consequat felis non nisi. Vivamus ut libero. Suspendisse pulvinar placerat ligula. Maecenas molestie metus vel justo.</li>
+						<li>Praesent at elit sed tortor dapibus dignissim. Aliquam at nisl. </li>
+					</ol>
+					<p>Integer a lectus. Duis libero urna, dictum ut, sagittis eget, pulvinar vitae, ipsum. Quisque eu felis vel massa consectetuer vehicula. Integer dignissim aliquet pede. Aenean a neque pellentesque nisi ultrices auctor. Vestibulum dignissim, lorem egestas vehicula lacinia, est eros pharetra dolor, sit amet porta nibh dui non libero. Nulla eget nisi in dolor vestibulum tincidunt. Praesent elit augue, consectetuer quis, volutpat at, adipiscing et, nibh. Pellentesque pellentesque ipsum bibendum pede. Nunc pretium magna eu sapien. Aliquam consequat felis non nisi. Vivamus ut libero. Suspendisse pulvinar placerat ligula. Maecenas molestie metus vel justo. Suspendisse placerat vulputate nulla. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean imperdiet nunc a lacus. </p>
+				</div>
+				<form method="post" action="#" class="contact_form" id="contact_form">
+					<fieldset>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_company">Company</label>
+							</dt>
+							<dd>
+								<input type="text" id="text_company" name="text_company" class="text" />
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_contact">Contact<span class="color">*</span></label>
+							</dt>
+							<dd>
+								<input type="text" id="text_contact" name="text_contact" class="text" />
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_title">Title</label>
+							</dt>
+							<dd>
+								<input type="text" id="text_title" name="text_title" class="text" />
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_cellphone">Cell Phone</label>
+							</dt>
+							<dd>
+								<input type="text" id="text_cellphone" name="text_cellphone" class="text" />
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_email">E-mail</label>
+							</dt>
+							<dd>
+								<input type="text" id="text_email" name="text_email" class="text" />
+							</dd>
+						</dl>
+						
+						<dl class="clearfix">
+							<dt>
+								<label for="text_company">City</label>
+							</dt>
+							<dd>
+								<select id="select_additional_info" name="select_additional_info" class="select_styling">
+									<option value="">Choose</option>
+									<option value="Other">Other</option>
+									<option value="Other">Other</option>
+									<option value="Other">Other</option>
+									<option value="Other">Other</option>
+								</select>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>
+								<label for="text_comments">Comments</label>
+							</dt>
+							<dd>
+								<textarea cols="10" rows="10" id="text_comments" name="text_comments" class="text"></textarea>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt></dt>
+							<dd>
+								<label class="checkbox">
+									<input type="checkbox"> Check me out
+								</label>
+							</dd>		
+						</dl>
+						<p class="no_margin clearfix meta_form"> <span class="float_left"><span class="color">*</span> <span class="gray">Required Fields</span></span>
+							<button class="btn float_right" type="submit">Submit</button>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<aside class="clearfix sidebar_right">
+			<div class="sidebar_right_inner">
+				<ul class="list_reset featured_side_list">
+					<li>
+						<h3><a href="information-technology.html">Information Technology</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Integer et dui est fusce quis ii libero tellus, a convallis dolor vivamus vitae lorem phlus vitae justo.</p>
+						<p class="no_margin"><a class="more" href="information-technology.html">read more</a></p>
+					</li>
+					<li>
+						<h3><a href="pharma-clinical-research.html">Pharma / Clinical Research</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Integer et dui est fusce quis ii libero tellus, a convallis dolor vivamus vitae lorem phlus vitae justo.</p>
+						<p class="no_margin"><a class="more" href="pharma-clinical-research.html">read more</a></p>
+					</li>
+					<li>
+						<h3><a href="engineering.html">Engineering</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Integer et dui est fusce quis ii libero tellus, a convallis dolor vivamus vitae lorem phlus vitae justo.</p>
+						<p class="no_margin"><a class="more" href="engineering.html">read more</a></p>
+					</li>
+					<li>
+						<h3><a href="accounting-and-finance.html">Accounting &amp; Finance</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Integer et dui est fusce quis ii libero tellus, a convallis dolor vivamus vitae lorem phlus vitae justo.</p>
+						<p class="no_margin"><a class="more" href="accounting-and-finance.html">read more</a></p>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	</div>
+	<p class="top_link_content"> <a href="#" id="top_link" class="top_link">top</a> </p>
+</div>
+<footer class="footer">
+	<div class="clearfix footer_inner">
+		<div class="clearfix footer_links_top">
+			<div id="links_footer_right" class="clearfix">
+				<ul class="list_reset">
+					<li><a href=".html" title="">About PSS</a></li>
+					<li><a href=".html" title="">Services</a></li>
+					<li><a href=".html" title="">Clients</a></li>
+					<li><a href=".html" title="">Acquisition Vehicles</a></li>
+				</ul>
+				<ul class="list_reset">
+					<li><a href=".html" title="">Why PSS</a></li>
+					<li><a href=".html" title="">Become a Partner</a></li>
+					<li><a href=".html" title="">Careers</a></li>
+					<li><a href=".html" title="">Contact Us</a></li>
+				</ul>
+				<ul class="list_reset last">
+					<li><a href=".html" title="">Site Map</a></li>
+					<li><a href=".html" title="">Terms of Use</a></li>
+					<li><a href=".html" title="">Privacy Policy</a></li>
+					<li><a href=".html" title="">Employee Login</a></li>
+				</ul>
+				<ul class="list_reset">
+					<li><a href=".html" title="">About PSS</a></li>
+					<li><a href=".html" title="">Services</a></li>
+					<li><a href=".html" title="">Clients</a></li>
+					<li><a href=".html" title="">Acquisition Vehicles</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copy clearfix">
+			<p>&copy; 2010 Preferred Systems Solutions, Inc.  All Rights Reserved / Developed by <a href="#">Markinson Satch, Inc.</a></p>
+		</div>
+	</div>
+ </footer>
+
+ <div style="display: none" id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	<h3 id="myModalLabel">Modal header</h3>
+	</div>
+	<div class="modal-body">
+	<p>One fine body…</p>
+	</div>
+	<div class="modal-footer">
+	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+	<button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript">
+	jQuery(function(){ 
+		
+		jQuery("#fancy_link").fancybox({
+			titlePosition	: 'inside',
+			transitionIn	: 'none',
+			transitionOut	: 'none',
+			autoDimensions	: false,
+			width			: 586,
+			height			: 371,
+			titleShow		: false,
+			margin			: 0,
+			padding			: 0,
+			showCloseButton	: true,
+			onStart	: function() {
+				//jQuery('#fancybox-outer').css('background-color','transparent');
+				//jQuery('.fancybox-bg').hide();
+			}
+		});
+		
+		jQuery('.close_link').click(function () { 
+		  jQuery.fancybox.close();
+		  return false;
+		});
+		
+	}); 
+</script>
+
+
+<link href="js/selectbox/css/sexy-combo.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/selectbox/jquery.sexy-combo.js"></script>
+
+<script type="text/javascript">
+jQuery(function() {
+	jQuery(".select_styling").sexyCombo({
+		showListCallback : function () {
+			jQuery('.sexy').addClass('sexy_active');
+		},
+		hideListCallback : function () {
+			jQuery('.sexy').removeClass('sexy_active');
+		}
+	});
+});
+</script>
+
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<!--<script type="text/javascript">
+jQuery(function() {
+	jQuery('#slider').cycle({
+        fx:      'fade',
+		timeout: 5000,
+		pager:   '#nav_news',
+		prev:    '#prev',
+        next:    '#next'
+    });
+});
+</script>-->
+</body>
+</html>
